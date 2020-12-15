@@ -143,7 +143,7 @@ strong {
 
 .section-title {
 	color: #14bf98;
-	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
+	font: 500 1rem/1.425rem "Montserrat", sans-serif;
 }
 
 .btn-solid-reg {
@@ -809,7 +809,7 @@ input[type='checkbox'] {
 /*********************/
 .basic-1 {
 	padding-top: 6.5rem;
-	padding-bottom: 3rem;
+	padding-bottom: 6.5rem;
 }
 
 .basic-1 .text-container {
@@ -902,6 +902,9 @@ input[type='checkbox'] {
 	padding-bottom: 1.25rem;	
 	background-color: #fbfbfb;
 }
+.cards-2-white {
+	 background-color: #ffffff !important;
+ }
 
 .cards-2 .section-title {
 	margin-bottom: 0.5rem;
@@ -945,6 +948,14 @@ input[type='checkbox'] {
 	color: #14bf98;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
+}
+
+
+.list-unstyled .fas {
+	color: #14bf98;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+	padding-right: 0.5rem;
 }
 
 .cards-2 .list-unstyled .media-body {
