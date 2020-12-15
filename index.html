@@ -1,59 +1,396 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
     <meta name="description" content="">
     <meta name="author" content="Leslie">
+
+    <!-- Website Title -->
     <title>Leslie</title>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Favicons -->
-    <link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
 </head>
 
-<body>
-    <div class="navbar navbar-light bg-light shadow-sm">
-        <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-                <img src="img/Logo_32x32.png" alt="Logo">
-            </a>
-            <a class="py-2 d-none d-md-inline-block" href="#">About</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Projects</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Resume</a>
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
         </div>
     </div>
+    <!-- end of preloader -->
+    
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+    
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/Logo.png" alt="Leslie"></a>
+    
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+    
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#intro">INTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#experience">EXPERIENCE</a>
+                </li>    
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="https://instagram.com/lesliedizon14">
+                            <span class="hexagon"></span>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://www.linkedin.com/in/lesliedizon">
+                            <span class="hexagon"></span>
+                            <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+    
+    
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1>Hi, I'm Leslie.<br/>I'm a <span id="js-rotating">Unity, C#, Javascript, JAVA, PHP, HTML, CSS</span> Developer.</h1>
+                            <p class="p-heading p-large">I have <b>two</b> years work experience as a Junior Game Developer and
+                            <br/><b>five</b> years work experience as a Web Developer.</p>
+                            <a class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 text-left bg-light">
-        <div class="row align-items-center">
-            <div class="col-12 col-md-9">
-                <h1 class="display-4 font-weight-normal">Leslie</h1>
-                <p class="lead font-weight-normal">
-                    Experienced Web Developer holding an extensive work experience of more than 5 years in the Information Technology Industry. 
-                    Skilled in JAVA EE and PHP website development with a degree of Bachelor of Science in Computer Science with Areas of Specialization in Systems Development.
-                </p>
-            </div>
-            <div class="col-12 col-md-3">
-                <div class="text-md-right">
-                    <img src="img/profile-img.jpg" class="profile-img img-fluid" alt="Leslie">
+
+    <!-- Intro -->
+    <div id="intro" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <div class="section-title">INTRO</div>
+                        <h2>I am a passionate, creative and knowledgeable Developer.</h2>
+                        <ul class="text-justify">
+                            <li>I finished Game Programming Advanced Diploma Program at Centennial College, Canada in Fall 2020.</li>
+                            <li>I finished Bachelor of Science in Computer Science at Holy Angel University, Philippines in Summer 2012.</li>
+                            <li>Passion for interactive gaming with strong computer programming skills and creativity.</li>
+                            <li>Proficient in Microsoft Office Word, Excel and PowerPoint.</li>
+                            <li>High energy, dynamic and achievement-oriented individual.</li>
+                            <li>Excellent problem solver and fast learner.</li>
+                            <li>Detail oriented and organized.</li>
+                            <li>Strong verbal and written communication skills.</li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/profile-img.jpg" alt="Profile Image">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of intro -->
+    
+
+    <!-- Projects -->
+    <div id="projects" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">PROJECTS</div>
+                    <h2>UNITY Projects</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/medi-siege.jpg" alt="Medi-Siege">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Medi-Siege</h3>
+                            <p class="text-justify">Medi-Siege is an educational tower defense game based on the human immune system.</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body text-justify">The game aims to educate users about how the body defends itself in a fun and accessible way.</div>
+                                </li>
+                                <li class="media pt-3">
+                                    <img class="pr-3 w-25 h-25" alt="Unity" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/unity.png">
+                                    <img class="pr-3 w-25 h-25" alt="C#" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/c%23.png">
+                                </li>
+                            </ul>
+                            <p class="price">Fall <span>2020</span></p>
+                        </div>
+                        <div class="button-container">
+                            <a class="btn-solid-reg page-scroll" href="https://github.com/LesLie-14/Medi-Siege">DETAILS</a>
+                        </div> <!-- end of button-container -->
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/charm&strange.jpg" alt="Charm and Strange">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Charm and Strange</h3>
+                            <p class="text-justify">Charm and Strange is a fun and interactive game where you switch between two realities in order to beat the game.</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body text-justify">The player switches between two elemental planes, namely Charm and Strange, in order to progress through the levels.</div>
+                                </li>
+                                <li class="media pt-3">
+                                    <img class="pr-3 w-25 h-25" alt="Unity" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/unity.png">
+                                    <img class="pr-3 w-25 h-25" alt="C#" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/c%23.png">
+                                </li>
+                            </ul>
+                            <p class="price">Winter <span>2019</span></p>
+                        </div>
+                        <div class="button-container">
+                            <a class="btn-solid-reg page-scroll" href="https://github.com/LesLie-14/Medi-Siege">DETAILS</a>
+                        </div> <!-- end of button-container -->
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/hophoprabbit.jpg" alt="Hop Hop Rabbit">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Hop Hop Rabbit</h3>
+                            <p class="text-justify">Hop Hop Rabbit is a 2D side-scrolling game adeventure game.</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body text-justify">After the Rabbit discovers that his garden has been invaded, he needs to defend it from evil butterflies.</div>
+                                </li>
+                                <li class="media pt-3">
+                                    <img class="pr-3 w-25 h-25" alt="Unity" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/unity.png">
+                                    <img class="pr-3 w-25 h-25" alt="C#" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/c%23.png">
+                                </li>
+                            </ul>
+                            <p class="price">Fall <span>2018</span></p>
+                        </div>
+                        <div class="button-container">
+                            <a class="btn-solid-reg page-scroll" href="https://github.com/LesLie-14/HopHopRabbit">DETAILS</a>
+                        </div> <!-- end of button-container -->
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of services -->
+
+
+    <!-- Details 1 -->
+    <div id="experience" class="accordion">
+        <div class="area-1">
+        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
+
+        <!-- Accordion -->
+        <div class="accordion-container" id="accordionOne">
+            <h2>Treasured Inc</h2>
+            <div class="item">
+                <div id="headingOne">
+                    <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button">
+                        <span class="circle-numbering">1</span><span class="accordion-title">Job Title</span>
+                    </span>
                 </div>
-            </div>
-        </div>
-    </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionOne">
+                    <div class="accordion-body">
+                        Junior Game Developer
+                    </div>
+                </div>
+            </div> <!-- end of item -->
 
-	<footer>
-		<p class="text-center copyright"><img src="img/Logo_32x32.png" alt="Logo"> Property of Leslie&trade; &copy;2020</p>
-	</footer>
+            <div class="item">
+                <div id="headingTwo">
+                        <span class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="button">
+                            <span class="circle-numbering">2</span><span class="accordion-title">Location and Dates</span>
+                        </span>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
+                    <div class="accordion-body">
+                        Canada, May 06, 2019 - Present
+                    </div>
+                </div>
+            </div> <!-- end of item -->
+
+            <div class="item">
+                <div id="headingThree">
+                        <span class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
+                            <span class="circle-numbering">3</span><span class="accordion-title">Job Description</span>
+                        </span>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
+                    <div class="accordion-body text-justify">
+                        I started at Treasured as a CO-OP for my program and shortly after I finished my CO-OP the company retained me as a Junior Game Developer.
+                        During my first CO-OP semester, I worked with Blender and Substance painter for 3D models. On my last CO-OP semester, I worked on Unity as
+                        a Level Designer, and designed the front and back garden areas of the world. After my CO-OP, I worked on Game Design, where I created a Tutorial
+                        with dialogues and prompts for the game.
+                    </div>
+                </div>
+            </div> <!-- end of item -->
+        </div> <!-- end of accordion-container -->
+        <!-- end of accordion -->
+
+    </div> <!-- end of area-2 -->
+    </div> <!-- end of accordion -->
+    <!-- end of details 1 -->
+    
+    
+<!--    &lt;!&ndash; Call Me &ndash;&gt;-->
+<!--    <div id="callMe" class="form-1">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-6">-->
+<!--                    <div class="text-container">-->
+<!--                        <div class="section-title">CALL ME</div>-->
+<!--                        <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>-->
+<!--                        <p class="white">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>-->
+<!--                        <ul class="list-unstyled li-space-lg white">-->
+<!--                            <li class="media">-->
+<!--                                <i class="fas fa-square"></i>-->
+<!--                                <div class="media-body">It's very easy just fill in the form so we can call</div>-->
+<!--                            </li>-->
+<!--                            <li class="media">-->
+<!--                                <i class="fas fa-square"></i>-->
+<!--                                <div class="media-body">During the call we'll require some info about the company</div>-->
+<!--                            </li>-->
+<!--                            <li class="media">-->
+<!--                                <i class="fas fa-square"></i>-->
+<!--                                <div class="media-body">Don't hesitate to email us for any questions or inquiries</div>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--                <div class="col-lg-6">-->
+<!--    -->
+<!--                    &lt;!&ndash; Call Me Form &ndash;&gt;-->
+<!--                    <form id="callMeForm" data-toggle="validator" data-focus="false">-->
+<!--                        <div class="form-group">-->
+<!--                            <input type="text" class="form-control-input" id="lname" name="lname" required>-->
+<!--                            <label class="label-control" for="lname">Name</label>-->
+<!--                            <div class="help-block with-errors"></div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <input type="text" class="form-control-input" id="lphone" name="lphone" required>-->
+<!--                            <label class="label-control" for="lphone">Phone</label>-->
+<!--                            <div class="help-block with-errors"></div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <input type="email" class="form-control-input" id="lemail" name="lemail" required>-->
+<!--                            <label class="label-control" for="lemail">Email</label>-->
+<!--                            <div class="help-block with-errors"></div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <select class="form-control-select" id="lselect" required>-->
+<!--                                <option class="select-option" value="" disabled selected>Interested in...</option>-->
+<!--                                <option class="select-option" value="Off The Ground">Off The Ground</option>-->
+<!--                                <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>-->
+<!--                                <option class="select-option" value="Market Domination">Market Domination</option>-->
+<!--                            </select>-->
+<!--                            <div class="help-block with-errors"></div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group checkbox white">-->
+<!--                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>-->
+<!--                            <div class="help-block with-errors"></div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <button type="submit" class="form-control-submit-button">CALL ME</button>-->
+<!--                        </div>-->
+<!--                        <div class="form-message">-->
+<!--                            <div id="lmsgSubmit" class="h3 text-center hidden"></div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                    &lt;!&ndash; end of call me form &ndash;&gt;-->
+<!--    -->
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--            </div> &lt;!&ndash; end of row &ndash;&gt;-->
+<!--        </div> &lt;!&ndash; end of container &ndash;&gt;-->
+<!--    </div> &lt;!&ndash; end of form-1 &ndash;&gt;-->
+<!--    &lt;!&ndash; end of call me &ndash;&gt;-->
+    
+    
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://leslie-14.github.io/">Leslie</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+    
+    
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
-
 </html>
