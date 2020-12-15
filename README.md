@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+### Hi there, I'm Leslie 👋
 
-You can use the [editor on GitHub](https://github.com/LesLie-14/LesLie-14.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## I'm a passionate, creative and knowledgeable Developer
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- 🎓 I recently finished Game Programming - an Advance Diploma Program at Centennial College, Canada this Fall 2020.
+- 🎓 I finished Bachelor of Science in Computer Science at Holy Angel University, Philippines on 2012.
+- 🎮 I have a passion for interactive games with strong computer programming skills and creativity.
+- 💻 I am an experienced Web Developer holding an extensive work experience of more than 5 years in the Information Technology Industry.
+- 🥅 2021 Goals: To create more games that has optimized, structured, and well-maintained code.
+- 📚 Fun fact: I love to read books.
 
-### Markdown
+### Connect with me:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[<img align="left" alt="Leslie | LinkedIn" width="22px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/linkedin.png" />][linkedin]
+[<img align="left" alt="Leslie | Instagram" width="22px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/instagram.png" />][instagram]
 
-```markdown
-Syntax highlighted code block
+<br />
 
-# Header 1
-## Header 2
-### Header 3
+### Languages and Tools:
 
-- Bulleted
-- List
+[<img align="left" alt="Unity" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/unity.png" />][website]
+[<img align="left" alt="GitHub" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/github.png" />][website]
+[<img align="left" alt="GitKraken" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/gitkraken.png" />][website]
+[<img align="left" alt="C#" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/c%23.png" />][website]
+[<img align="left" alt="JavaScript" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/javascript.png" />][website]
+[<img align="left" alt="Python" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/python.png" />][website]
+[<img align="left" alt="JAVA" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/java.png" />][website]
+[<img align="left" alt="PHP" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/php.png" />][website]
+[<img align="left" alt="HTML" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/html5.png" />][website]
+[<img align="left" alt="CSS" width="26px" height="26px" src="https://raw.githubusercontent.com/LesLie-14/LesLie-14/main/icons/css3.png" />][website]
 
-1. Numbered
-2. List
+<br />
+<br />
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+<details>
+  <summary>:zap: Recent Playable Web-GL Games:</summary>
+  
+1. 🩺 [Medi-Siege](https://leslie-14.github.io/Medi-Siege)
+2. 🐰 [Hop Hop Rabbit](https://leslie-14.github.io/HopHopRabbit)
+3. 🧙‍♂️ [Charm and Strange](https://github.com/LesLie-14/CharmAndStrange)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</details>
 
-### Jekyll Themes
+<details>
+  <summary>:zap: GitHub Stats</summary>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LesLie-14/LesLie-14.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  <img align="left" alt="Leslie's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Leslie-14&show_icons=true&hide_border=true" />
 
-### Support or Contact
+</details>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[instagram]: https://instagram.com/lesliedizon14
+[linkedin]: https://www.linkedin.com/in/lesliedizon
+[website]: https://github.com/LesLie-14
