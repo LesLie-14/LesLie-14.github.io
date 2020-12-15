@@ -2,6 +2,8 @@
    Author: Inovatik
    Created: Jul 2019
    Description: Master CSS file
+   Modified By: Leslie
+   Date Last Modified: December 15, 2020
 */
 
 /*****************************************
@@ -889,8 +891,8 @@ input[type='checkbox'] {
 
 .cards-1 .card-title {
 	margin-bottom: 0.625rem;
+	color: #14bf98;
 }
-
 
 /************************/
 /*     07. Services     */
@@ -1165,7 +1167,7 @@ input[type='checkbox'] {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
+	background: url('../images/WIMTACH.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -2324,7 +2326,7 @@ a:hover.back-to-top {
 
 	/* Details 1 */
 	.accordion .accordion-container {
-		max-width: 28rem;
+		max-width: 50rem;
 		margin-left: 5rem;
 	}
 	/* end of details 1 */
@@ -2332,9 +2334,9 @@ a:hover.back-to-top {
 
 	/* Details 2 */
 	.tabs .tabs-container {
-		max-width: 28rem;
+		max-width: 50rem;
 		margin-right: 5rem;
-		margin-left: auto;
+		margin-left: 5rem;
 	}
 
 	.tabs #tab-2 .media-wrapper.first {
