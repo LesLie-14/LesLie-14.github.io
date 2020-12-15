@@ -990,7 +990,17 @@ input[type='checkbox'] {
 	height: 27rem;
 	background: url('../images/treasured.png') center center no-repeat;
 	background-size: cover;
+	border: #000000 3px solid;
+	border-radius: 5px;
 }
+
+.accordion .area-1-ci {
+	height: 27rem;
+	background: url('../images/CollectiveIntelligence.png') center center no-repeat;
+	background-size: cover;
+	border: #000000 3px solid;
+	border-radius: 5px;
+ }
 
 .accordion .accordion-container {
 	max-width: 90%;
@@ -1180,6 +1190,16 @@ input[type='checkbox'] {
 	height: 27rem;
 	background: url('../images/WIMTACH.png') center center no-repeat;
 	background-size: cover;
+	border: #000000 3px solid;
+	border-radius: 5px;
+}
+
+.tabs .area-2-z {
+	height: 27rem;
+	background: url('../images/zeniark.png') center center no-repeat;
+	background-size: cover;
+	border: #000000 3px solid;
+	border-radius: 5px;
 }
 
 
