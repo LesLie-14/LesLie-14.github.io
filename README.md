@@ -46,7 +46,7 @@
 <details>
   <summary>:zap: GitHub Stats</summary>
 
-  <img align="left" alt="Leslie's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Leslie-14&show_icons=true&hide_border=true" />
+  [![Leslie's GitHub stats](https://github-readme-stats.vercel.app/api?username=LesLie-14&count_private=true&hide=stars,contribs&show_icons=true&theme=dracula)](https://github.com/LesLie-14/)
 
 </details>
 
