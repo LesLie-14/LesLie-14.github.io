@@ -2,8 +2,8 @@
 
 ## I'm a passionate, creative and knowledgeable Developer
 
-- 🎓 I recently finished Game Programming - an Advance Diploma Program at Centennial College, Canada this Fall 2020.
-- 🎓 I finished Bachelor of Science in Computer Science at Holy Angel University, Philippines on 2012.
+- 🎓 I finished the Game Programming - Advance Diploma Program at Centennial College, Canada in the Fall of 2020.
+- 🎓 I finished a Bachelor of Science in Computer Science Degree at Holy Angel University, Philippines in 2012.
 - 🎮 I have a passion for interactive games with strong computer programming skills and creativity.
 - 💻 I am an experienced Web Developer holding an extensive work experience of more than 5 years in the Information Technology Industry.
 - 🥅 2021 Goals: To create more games that has optimized, structured, and well-maintained code.
@@ -44,7 +44,7 @@
 </details>
 
 <details>
-  <summary>:zap: GitHub Stats</summary>
+  <summary>:zap: GitHub Stats:</summary>
 
   [![Leslie's GitHub stats](https://github-readme-stats.vercel.app/api?username=LesLie-14&count_private=true&hide=stars,contribs&show_icons=true&theme=dracula)](https://github.com/LesLie-14/)
 
