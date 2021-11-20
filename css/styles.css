@@ -1188,8 +1188,8 @@ input[type='checkbox'] {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/WIMTACH.png') center center no-repeat;
-	background-size: cover;
+	background: url('../images/LOCI.png') center center no-repeat;
+	background-size: 100% 100%;
 	border: #000000 3px solid;
 	border-radius: 5px;
 }
@@ -1197,6 +1197,14 @@ input[type='checkbox'] {
 .tabs .area-2-z {
 	height: 27rem;
 	background: url('../images/zeniark.png') center center no-repeat;
+	background-size: cover;
+	border: #000000 3px solid;
+	border-radius: 5px;
+}
+
+.tabs .area-2-w {
+	height: 27rem;
+	background: url('../images/WIMTACH.png') center center no-repeat;
 	background-size: cover;
 	border: #000000 3px solid;
 	border-radius: 5px;
