@@ -988,17 +988,25 @@ input[type='checkbox'] {
 /*************************/
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../images/treasured.png') center center no-repeat;
-	background-size: cover;
-	border: #000000 3px solid;
+	background: url('../images/LOCI.png') center center no-repeat;
+	background-size: 100% 100%;
+	border: #000 3px solid;
 	border-radius: 5px;
 }
 
-.accordion .area-1-ci {
+.accordion .area-1-w {
 	height: 27rem;
-	background: url('../images/CollectiveIntelligence.png') center center no-repeat;
-	background-size: cover;
-	border: #000000 3px solid;
+	background: url('../images/WIMTACH.png') center center no-repeat;
+	background-size: 100% 100%;
+	border: #000 3px solid;
+	border-radius: 5px;
+ }
+
+.accordion .area-1-z {
+	height: 27rem;
+	background: url('../images/zeniark.png') center center no-repeat;
+	background-size: 100% 100%;
+	border: #000 3px solid;
 	border-radius: 5px;
  }
 
@@ -1188,25 +1196,25 @@ input[type='checkbox'] {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/LOCI.png') center center no-repeat;
+	background: url('../images/kano.jpg') center center no-repeat;
 	background-size: 100% 100%;
-	border: #000000 3px solid;
+	border: #000 3px solid;
 	border-radius: 5px;
 }
 
-.tabs .area-2-z {
+.tabs .area-2-t {
 	height: 27rem;
-	background: url('../images/zeniark.png') center center no-repeat;
-	background-size: cover;
-	border: #000000 3px solid;
+	background: url('../images/treasured.png') center center no-repeat;
+	background-size: 100% 100%;
+	border: #000 3px solid;
 	border-radius: 5px;
 }
 
-.tabs .area-2-w {
+.tabs .area-2-ci {
 	height: 27rem;
-	background: url('../images/WIMTACH.png') center center no-repeat;
-	background-size: cover;
-	border: #000000 3px solid;
+	background: url('../images/CollectiveIntelligence.png') center center no-repeat;
+	background-size: 100% 100%;
+	border: #000 3px solid;
 	border-radius: 5px;
 }
 
